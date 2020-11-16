@@ -2,7 +2,7 @@
 // To modeling the action of Coriolis Effect on long-rage projectiles motion//
 
 // Citation:
-// E. D. Guarin and N. Méndez-Hincapié. Modeling Coriolis Effect on long-range projectiles motion. Revista de Enseñanza de la Física, 28(1):73–82, 2016
+// E. D. Guarin and N. MÃ©ndez-HincapiÃ©. Modeling Coriolis Effect on long-range projectiles motion. Revista de EnseÃ±anza de la FÃ­sica, 28(1):73â€“82, 2016
 
 #include<iostream>
 #include<fstream>         
@@ -54,7 +54,7 @@ void Missile::start(double L0,double m0,double t0, double x0,double y0,double z0
 
 //Coriolis Force -> F=-2m (w x v)
 //w -> angular velocity of the planet
-//Centrifugal force -> F=m*w x (w x r), r -> circumference radius described by the missile due to Earth´s rotation
+//Centrifugal force -> F=m*w x (w x r), r -> circumference radius described by the missile due to EarthÂ´s rotation
 
 void Missile::force(void) {//It calculates the total force over the missile considering Coriolis and centrifugal forces.
     double rx,ry,rz;
