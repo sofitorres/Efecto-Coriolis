@@ -1,0 +1,17 @@
+Cambios sugeridos >:) :
+
+En la línea 25 comienza class Missile en donde se define la función que contiene las variables y parámetros.
+---------> todo lo que diga "Get"
+	
+
+De la línea 28 a la 31 pueden convertirse en un arreglos.
+Línea 32 puede borrarse tentativamente.
+
+En la línea 64 empieza Missile::force que puede ser un arreglo
+o simplemente puede convertirse a una variable para ingresar los datos de las ecuaciones.
+
+Idem de arriba con Missile::force2
+
+Idem de arriba con Missile::midpoint
+
+Formulas de fuerza
